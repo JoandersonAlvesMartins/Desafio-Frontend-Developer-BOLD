@@ -1,0 +1,45 @@
+:root {
+
+    --font--sandard: 'Helvetica Neue', sans-serif;
+    --color: #ffffff;
+
+    --background--color: #707070;
+    --border: 1px solid #707070;
+
+    --font--size--sub--title: 20px;
+    --font--size--title: 40px;
+    --font--button: 14px;
+    --font--size--paragraph: 12px;
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+
+    top: 0px;
+    left: 0px;
+    width: 1500px;
+    height: 399px;
+
+    background-color: var(--background--color);
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--color);
+    font-family: var(--font--sandard);
+}
+
+header sub-title {
+    font-weight: normal;
+}

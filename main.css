@@ -1,6 +1,5 @@
 :root {
 
-    --font--sandard: 'Helvetica Neue', sans-serif;
     --color: #ffffff;
 
     --background--color: #707070;
@@ -18,28 +17,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif ;
 }
 
 body {
     height: 100vh;
 }
 
-header {
+header, footer {
 
     top: 0px;
     left: 0px;
-    width: 1500px;
     height: 399px;
-
-    background-color: var(--background--color);
 
     display: flex;
     justify-content: center;
     text-align: center;
     color: var(--color);
-    font-family: var(--font--sandard);
+}
+
+.gradiente-superior{
+    width: 100%;
+    background: linear-gradient(-176deg, var(--background--color) 20%, var(--background--color) 49.8%, #ffffff 50%, #fff 100%);
+}
+
+.gradiente-inferior{
+    width: 100%;
+    
+    background: linear-gradient(-176deg, #ffffff 20%, #fff 49.8%, var(--background--color) 50%, var(--background--color) 100%);
 }
 
 header sub-title {
     font-weight: normal;
 }
+
+header h1{
+    font-weight: bold;
+}
+
+/*main{
+
+}*/
